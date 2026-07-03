@@ -3,7 +3,7 @@ import { notifyAuthLogout } from './authEvents'
 import { clearAuthStorage, getToken } from './tokenStorage'
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://mern-auth-2-tt2r.onrender.com',
   timeout: 15000,
   headers: {
     'Content-Type': 'application/json',
